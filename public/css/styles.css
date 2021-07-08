@@ -1,0 +1,130 @@
+/* Banner Portion */
+body {
+  background-color: #ddf3f5;
+}
+
+#banner {
+  background-color: #ddf3f5;
+}
+
+#banner a {
+  color: #00909e;
+}
+
+#banner a:hover {
+  color: #00909e;
+}
+
+/* Nav bar */
+#navbar-section {
+  font-size: large;
+}
+
+nav {
+  background-color: #142850;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  height: 400px;
+}
+
+/* Sidebar */
+.sidebar {
+  margin: 0;
+  padding: 1%;
+  width: 17%;
+  overflow: auto;
+}
+
+/* Left sidebar */
+#sidebar-left {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+#sidebar-left h5{
+  text-align: center;
+}
+
+/* Right sidebar*/
+
+#sidebar-right {
+  float: right;
+  vertical-align: top;
+
+}
+
+/* Carousel Sidebar */
+.sidebar h4 {
+  padding: 4%;
+  text-align: center;
+}
+
+.sidebar-left h5 {
+  padding: 3%;
+  text-align: center;
+}
+
+/* Sidebar ads */
+.sidebar-ad {
+  width: 95%;
+  height: 100%;
+  border: 2px black solid;
+  border-radius: 4px;
+}
+
+#home-box {
+  margin: 0;
+  width: 64%;
+  position: relative;
+  display: inline-block;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  padding: 1px 30px;
+  /* background-color: #dae1e7; */
+}
+
+.content-color {
+  color: white;
+  background-color: #27496d;
+}
+
+.content-color-alt {
+  background-color: #ddf3f5;
+}
+
+/* Content */
+p {
+  text-align: justify;
+}
+
+/* home */
+
+/* features */
+
+
+/* Pricing */
+#pricing .row {
+  color: black;
+}
+
+#pricing-offer p {
+  display: inline;
+}
+
+#pricing-offer h4 {
+  display: inline;
+}
+
+#pricing-offer {
+  margin-bottom: 3%;
+}
+
+#btn-sign-up {
+  background-color: #142850;
+  color: white;
+}

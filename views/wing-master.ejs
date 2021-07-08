@@ -1,0 +1,30 @@
+<%- include("partials/header-1"); -%>
+<h1>Wing Master</h1>
+<br><br>
+
+<form action="/dashboard/wing-master" method = "POST">
+
+  <fieldset class="wingName">
+
+    <div class="repeatable"></div>
+
+    <input type="button" value="Add" class="add btn btn-primary">
+    <button type="submit" class = "btn btn-primary"> Submit </button>
+  </fieldset>
+
+</form>
+<script type="text/template" id="wingName">
+  <div class="field-group">
+
+    <label for="wing_{?}">Enter wing name</label>
+    <input type="text" name="wingName[{?}][wing]" value="{wing}" id="wing_{?}">
+
+    <!-- <label for="due"><a href="https://www.jqueryscript.net/time-clock/">date</a>_{?}">Due date</label>
+    <input type="text" name="wingName[{?}][duedate]" value="{duedate}" id="duedate_{?}"> -->
+
+    <input type="button" class="delete btn btn-primary" value="Remove"> 
+      <br><br>
+  </div>
+</script>
+
+<%- include("partials/footer-1"); -%>
